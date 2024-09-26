@@ -1,4 +1,5 @@
 import random
+
 import pygame
 
 # Set display surface
