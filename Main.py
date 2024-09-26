@@ -8,7 +8,7 @@ pygame.init()
 WINDOW_WIDTH = 1000
 WINDOW_HEIGHT = 400
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-pygame.display.set_caption("Cookie Monster Isn't A Muppet")
+pygame.display.set_caption("Me Want Cookie")
 pygame.display.set_icon(pygame.image.load('CookieMonster2.png'))
 
 # Set FPS and clock
@@ -79,12 +79,12 @@ pygame.mixer.music.load("ftd_background_music.wav")
 
 
 #Images
-player_image = pygame.image.load("CookieMonster.png")
+player_image = pygame.image.load("CookieMonsterTiny.png")
 player_rect = player_image.get_rect()
 player_rect.left = 32
 player_rect.centery = WINDOW_HEIGHT // 2
 
-coin_image = pygame.image.load("Cookie.png")
+coin_image = pygame.image.load("CookieTiny.png")
 coin_rect = coin_image.get_rect()
 coin_rect.centerx = WINDOW_WIDTH + Buffer_Distance
 coin_rect.centery = random.randint(64, WINDOW_HEIGHT - 32)
