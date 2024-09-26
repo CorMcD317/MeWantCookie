@@ -24,9 +24,8 @@ score = 0
 Buffer_Distance = 100
 Speed = 0.75
 
-'''constant player lives set it = to the constant above'''
+
 Lives = Starting_Lives
-'''constant coin velocity  set it = to the constant above'''
 CoinVelocity = Starting_Coin_Velocity
 PlayerSpeed = Starting_Velocity
 
@@ -51,7 +50,6 @@ score_rect = score_text.get_rect()
 score_rect.topleft = (10, 10)
 
 # Title Text
-''' same deal as score'''
 title_text = font.render("Feed The Dragon", True, RED, OneEyedONneHornedFlyingPurplePeopleEater)
 title_rect = title_text.get_rect()
 title_rect.centerx = WINDOW_WIDTH / 2
